@@ -80,7 +80,7 @@ class Cell {
   //Flood Fill operator; stops if the cell has nearbyMines>0
   //returns value of mineP
   public boolean floodFill(MSGame msg) {
-    if (!this.open) {
+    if (!this.open && !this.flag) {
       this.openUp(msg);
       if (this.nearbyMines == 0) {
         for (int i = 0; i < this.surroundingCells.size(); i++) {
