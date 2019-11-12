@@ -4,7 +4,7 @@
  by Lee Costich, 2019
 
 ## Gameplay Instructions
- The purpose of this program is to be a faithful reproduction of the 1989 classic desktop game Minesweeper. When the game is started, you will be presented with a board of squares. Some squares contain mines, and some don't. If you click on a square containing a mine, you will lose the game. The objective of the game is to reveal all squares that do not contain bombs.
+ The purpose of this program is to be a recreation of the 1989 classic desktop game Minesweeper. When the game is started, you will be presented with a board of squares. Some squares contain mines, and some don't. If you click on a square containing a mine, you will lose the game. The objective of the game is to reveal all squares that do not contain mines.
  
  A Left Click will reveal a tile, and a Right Click will flag a tile. If you reveal a tile that is a mine, the mine will blow up and you will lose. If you reveal a tile that is not adjacent to any mines, it will appear blank. If you reveal a tile that is adjacent to one or more mines, a number will appear on that tile indicating how many mines are directly adjacent. If you suspect that a tile is a mine, you may flag (rclick) the tile to mark it as a mine.
  
